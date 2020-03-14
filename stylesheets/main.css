@@ -1,36 +1,54 @@
-#header_name {
+header {
     background-color: darkred;
     color: white;
     font-size: 35px;
     padding: 5px 5px 5px 10px;
 }
-
-#login {
-  background-color: darkred;
-  color: white;
-  font-size: 20px;
-  text-decoration: underline;
-  padding: 5px 50px 25px 100px;
+.group:before,
+.group:after {
+  content: "";
+  display: table;
 }
-
-#navigation {
-  background-color: SlateGray;
-  color: white;
-  font-size: 20px;
-  text-decoration: underline;
-  padding: 20px 50px 20px 100px;
+.group:after {
+  clear: both;
 }
-
-#main {
+.group {
+  clear: both;
+  *zoom: 1;
+}
+section {
   float: left;
-  width: 800px;
+  margin: 0 1.5%;
+  width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
-#mainp {
-  font-size: 16px;
-  padding: 10px 10px 10px 50px;
+
+
+#img1 {
+  width: 66.66%;
+  heigh: 33.33%;
+  padding: 10px 10px 10px 10px;
 }
+
+#img2 {
+  width: 200px;
+  heigh: 100px;
+  padding: 10px 10px 10px 10px;
+}
+
 h2 {
   font-size: 24px;
-  padding: 10px 10px 10px 50px;
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+  margin: 0 1.5% 24px 1.5%;
+  background-color: SlateGray;
+  font-size: 16px;
+  padding: 10px 10px 10px 10px;
 }
