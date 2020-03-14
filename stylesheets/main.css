@@ -1,0 +1,19 @@
+#header_name {
+    background-color: darkred;
+    color: white;
+    font-size: 35px;
+}
+
+#login {
+  background-color: darkred;
+  color: white;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+#navigation {
+  background-color: SlateGray;
+  color: white;
+  font-size: 24px;
+  text-decoration: underline;
+}
