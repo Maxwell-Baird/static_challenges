@@ -2,18 +2,35 @@
     background-color: darkred;
     color: white;
     font-size: 35px;
+    padding: 5px 5px 5px 10px;
 }
 
 #login {
   background-color: darkred;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: underline;
+  padding: 5px 50px 25px 100px;
 }
 
 #navigation {
   background-color: SlateGray;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: underline;
+  padding: 20px 50px 20px 100px;
+}
+
+#main {
+  float: left;
+  width: 800px;
+}
+
+#mainp {
+  font-size: 16px;
+  padding: 10px 10px 10px 50px;
+}
+h2 {
+  font-size: 24px;
+  padding: 10px 10px 10px 50px;
 }
